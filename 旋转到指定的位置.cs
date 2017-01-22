@@ -1,3 +1,14 @@
+public static int ang=10;
+    void Start () {
+        tra = GetComponent<Transform>();
+		this.InvokeRepeating ("Swingfd",1.0f,0.05f);
+		//this.InvokeRepeating ("Swingfd",1.0f,1.0f);
+	}
+
+
+
+
+
 void Swinglr()
 {
     //this.transform.RotateAround(target.transform.position, Vector3.up, 45f * Time.deltaTime);
