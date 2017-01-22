@@ -8,3 +8,30 @@ void Swinglr()
 
 
 }
+
+
+
+
+
+
+
+oid Swingfd()
+    {
+        //this.transform.Rotate(new Vector3(1, 3, 3), 45 * Time.deltaTime, Space.Self);
+
+		//for (int i = 0; i < 90; i=i+10) {
+		//	Quaternion quaternion = Quaternion.AngleAxis (i, Vector3.up);
+		//	this.transform.rotation = quaternion;  
+		//	yield return  WaitForSeconds (1.0);
+		//}
+	    
+		Quaternion quaternion = Quaternion.AngleAxis (ang, Vector3.up);
+		this.transform.rotation = quaternion;  
+		ang = ang+30;
+		if(ang>90){
+			
+			ang = ang - 60;	
+
+		}
+	    
+    }
