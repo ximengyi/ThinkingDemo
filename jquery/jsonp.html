@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jsonp</title>
+  </head>
+  <body>
+<div class="" id ="div1">
+
+</div>
+  </body>
+<script src="./js/jquery-3.3.1.js">
+</script>
+  <script>
+      $.getJSON("jsonp.php?jsoncallback=?",function(data){
+            var html = '<ul>'
+            for (var i = 0; i < data.length; i++) {
+              html +='<li>' +data[i] + '</li>';
+            }
+            html +='</ul>';
+            $('#div1').html(html);
+      });
+
+  </script>
+
+</html>

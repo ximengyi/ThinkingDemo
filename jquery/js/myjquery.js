@@ -1,0 +1,24 @@
+$(function(){
+    $("h1").click(function(){
+     $(this).hide();
+    });
+});
+$(function(){
+    $("#te").click(function(){
+      $("#te").css("color","blue");
+    });
+});
+$(function(){
+    $("#test").mouseenter(function(){
+       //alert("hahhaaha");
+    });
+});
+$(function(){
+  $("button").click(function(){
+    $("#div1").fadeToggle();
+    $("#div2").fadeToggle("slow");
+    $("#div3").fadeToggle(3000);
+
+  });
+}
+);

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>mvvmTest</title>
+  </head>
+  <body>
+    <div class="">
+     <p> hello  <span id="name">meng</span> </p>
+      <p> <span id="age">you are 12</span></p>
+    </div>
+  </body>
+  <script  src="./js/jquery-3.3.1.js">
+  </script>
+  <script>
+
+  var person = {
+    name : "nana",
+    age: 13
+  }
+  //var name ="duna";
+//   var age ="i love you";
+     $("#name").click(function(){
+       $("#name").text(person.name);
+       $("#age").text(person.age);
+     });
+  </script>
+</html>
