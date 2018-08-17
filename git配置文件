@@ -1,0 +1,11 @@
+[user]
+        email = yi.meng@ifchange.com
+        name = mengyi
+[alias]
+        st = status
+        co = checkout
+        ci = commit
+        br = branch
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        pl = pull
+        ps = push
